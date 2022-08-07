@@ -1,21 +1,28 @@
 function isPalindrome(word) {
-  // Write your algorithm here
-  if (word === true) {
+  const word  = word.toLowerCase()
+
+  for (let i=0; i<word.length; i+=1) {
+    if(word[i] !== word[word.length -1 - i]) {
+      return false
+
+    }
     return true
-  }
-  else if (word !== true) {
-    return false
   }
 }
 
 /* 
   Add your pseudocode here
-
+I tried an 'if else' statement, but that only got two test to pass.
+I went on google to see if other people found a solution that could help.
+I found a video that helped me figure out what I was doing.
  
 */
 
 /*
   Add written explanation of your solution here
+  Used a for loop to loop through the string and checked if each end matched up.
+
+  used toLowerCase so capitalization wouldn't be a problem.
 
 */
 
