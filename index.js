@@ -11,7 +11,7 @@ function isPalindrome(word) {
 /* 
   Add your pseudocode here
 
-  I found the right solution. I came to the same conclusion, as the one in the solution branch, but I cannot get all the test to pass
+ 
 */
 
 /*
