@@ -1,5 +1,11 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if (word === true) {
+    return true
+  }
+  else if (word !== true) {
+    return false
+  }
 }
 
 /* 
